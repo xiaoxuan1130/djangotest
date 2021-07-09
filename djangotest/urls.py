@@ -21,4 +21,5 @@ from djangotest import view
 
 urlpatterns = [
     url(r'^$', view.index),
+    url(r'^yoyo$', view.yeki),
 ]
